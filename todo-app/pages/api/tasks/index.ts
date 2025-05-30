@@ -9,13 +9,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       })
       res.status(200).json(tasks)
     } catch (error) {
+      console.error('Görevler alınırken hata:', error)
       res.status(500).json({ error: 'Görevler alınamadı.' })
     }
   } else if (req.method === 'POST') {
     const { title } = req.body
+
     if (!title || typeof title !== 'string') {
       return res.status(400).json({ error: 'Geçersiz başlık.' })
     }
+
     try {
       const newTask = await prisma.task.create({
         data: {
@@ -25,6 +28,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       })
       res.status(201).json(newTask)
     } catch (error) {
+      console.error('Görev oluşturulurken hata:', error)
       res.status(500).json({ error: 'Görev oluşturulamadı.' })
     }
   } else {
