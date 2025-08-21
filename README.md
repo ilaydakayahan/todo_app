@@ -18,14 +18,14 @@ CRUD (Create, Read, Update, Delete) işlemleri desteklenir ve kullanıcı kimlik
 - ✅ Şık arayüz (**TailwindCSS**)
 
   
-📌 Kullanılan Teknolojiler
-Next.js – React framework
-TailwindCSS – UI için CSS framework
-Prisma – ORM
-MongoDB – Veritabanı
-Zustand – State management
-Formik & Yup – Form yönetimi & validasyon
-NextAuth – Kimlik doğrulama
+## 📌 Kullanılan Teknolojiler  
+Next.js – React framework  
+TailwindCSS – UI için CSS framework  
+Prisma – ORM  
+MongoDB – Veritabanı  
+Zustand – State management  
+Formik & Yup – Form yönetimi & validasyon  
+NextAuth – Kimlik doğrulama  
 
 
 
