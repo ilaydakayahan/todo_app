@@ -30,17 +30,17 @@ NextAuth – Kimlik doğrulama
 
 
 ## 📂 Proje Yapısı  
-📦 to-do-app
-┣ 📂 prisma
-┃ ┗ 📜 schema.prisma
-┣ 📂 src
-┃ ┣ 📂 app
-┃ ┣ 📂 components
-┃ ┣ 📂 lib
-┃ ┗ 📂 pages
-┣ 📜 .env
-┣ 📜 package.json
-┣ 📜 README.md  
+📦 to-do-app  
+┣ 📂 prisma  
+┃ ┗ 📜 schema.prisma  
+┣ 📂 src  
+┃ ┣ 📂 app  
+┃ ┣ 📂 components  
+┃ ┣ 📂 lib  
+┃ ┗ 📂 pages  
+┣ 📜 .env  
+┣ 📜 package.json  
+┣ 📜 README.md    
 
 
 ## ⚙️ Kurulum & Çalıştırma  
